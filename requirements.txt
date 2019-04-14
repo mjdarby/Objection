@@ -1,0 +1,9 @@
+cffi==1.12.2
+comtypes==1.1.7
+numpy==1.16.2
+PyAudio==0.2.11
+pycparser==2.19
+pywin32==224
+pywinauto==0.6.6
+six==1.12.0
+SoundFile==0.10.2
