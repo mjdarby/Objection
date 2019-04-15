@@ -1,4 +1,3 @@
-
 # Objection
 
 A quick and dirty hotword-based control for Phoenix Wright: Ace Attorney Trilogy on Windows PC. Finally, screaming Objection!, Take That!, and Hold It! becomes a reality for the first time since the DS release.
@@ -26,8 +25,11 @@ A binary release for amd64-compatible machines will be available soon.
  - Modify the Porcupine paths in objection.py as necessary to match your target system
  - Run the following command after also installing pyinstaller: `pyinstaller --add-data "porcupine;porcupine" --add-data "<your python root directory>/lib/site-packages/_soundfile_data;_soundfile_data" --onefile -p porcupine/binding/python objection.py`
 
+## TODOs
+ - Slim down the repository a bit, don't need all the Porcupine stuff
+
 ## Licenses
 
-The Apache 2.0 licensed portions of the Porcupine library are included in this repository unaltered.
+The Apache 2.0 licensed portions of the Porcupine library are included in this repository unaltered, save the resources folder.
 
 The Objection software itself is licensed under the MIT License, which can be found in the LICENSE file.
