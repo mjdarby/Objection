@@ -9,8 +9,6 @@ import pyaudio
 
 PORCUPINE_HOME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "porcupine")
 PORCUPINE_BINDING = os.path.join(PORCUPINE_HOME, "binding", "python")
-print(PORCUPINE_HOME)
-print(PORCUPINE_BINDING)
 PORCUPINE_ARCH1 = "windows"
 PORCUPINE_ARCH2 = "amd64"
 
@@ -27,16 +25,16 @@ sys.path.append(PORCUPINE_BINDING)
 from porcupine import Porcupine
 
 def objection():
-    app.top_window().type_keys("{ENTER}")
-#    app.emacs.type_keys("Wow")
+    app.top_window().type_keys("{e down}")
+    app.top_window().type_keys("{e up}")
 
 def takethat():
-    pass
-#    app.emacs.type_keys("Wow")
+    app.top_window().type_keys("{e down}")
+    app.top_window().type_keys("{e up}")
 
 def holdit():
-    pass
-#    app.emacs.type_keys("Wow")
+    app.top_window().type_keys("{q down}")
+    app.top_window().type_keys("{q up}")
 
 def connectPhoenixWindow():
     app = pywinauto.application.Application()

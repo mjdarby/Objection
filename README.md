@@ -27,6 +27,9 @@ A binary release for amd64-compatible machines will be available soon.
 
 ## TODOs
  - Slim down the repository a bit, don't need all the Porcupine stuff
+ - Enable 'classic' mode - ie. hold down a button to start microphone detection
+ - Dark magic to only have to run one executable to start both game and detector
+ - Darker magic to patch the detector into the game itself
 
 ## Licenses
 
