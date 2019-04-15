@@ -3,7 +3,7 @@
 A quick and dirty hotword-based control for Phoenix Wright: Ace Attorney Trilogy on Windows PC. Finally, screaming Objection!, Take That!, and Hold It! becomes a reality for the first time since the DS release.
 
 ## Demo video
-Coming soon!
+[Take a look!](https://streamable.com/s/7ac4r/vgbzuc)
 
 ## How-To
  - Install the prerequisites as in requirements.txt
