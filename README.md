@@ -17,6 +17,8 @@ A quick and dirty hotword-based control for Phoenix Wright: Ace Attorney Trilogy
 
 If all goes well, Objection will hook into the Ace Attorney window and wait for microphone input.
 
+Because of the usage of the Porcupine library, the ppn files will eventually expire and need to be regenerated. Refer to the [Porcupine documentation](https://github.com/Picovoice/Porcupine) on how to do that.
+
 ## Binaries
 A binary release for amd64-compatible machines will be available soon.
 
