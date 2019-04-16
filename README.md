@@ -6,6 +6,7 @@ A quick and dirty hotword-based control for Phoenix Wright: Ace Attorney Trilogy
 [Take a look!](https://streamable.com/s/7ac4r/vgbzuc)
 
 ## How-To
+ - Check out the repository!
  - Install the prerequisites as in requirements.txt
 	 - This is easiest on Python 3.6, which already has a pre-built wheel for PyAudio.
  - Generate three Porcupine hotword files and put them in the root folder of Objection:
@@ -17,7 +18,7 @@ A quick and dirty hotword-based control for Phoenix Wright: Ace Attorney Trilogy
 
 If all goes well, Objection will hook into the Ace Attorney window and wait for microphone input.
 
-Because of the usage of the Porcupine library, the ppn files will eventually expire and need to be regenerated. Refer to the [Porcupine documentation](https://github.com/Picovoice/Porcupine) on how to do that.
+Because of the usage of the Porcupine library, the ppn files will eventually expire and need to be regenerated. Refer to the [Porcupine documentation](https://github.com/Picovoice/Porcupine) on how to do the inital generation and subsequent renewals.
 
 ## Binaries
 A binary release for amd64-compatible machines will be available soon.
